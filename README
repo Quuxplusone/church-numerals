@@ -1,0 +1,12 @@
+Church numerals in C++14, C++11, and C++03.
+
+Everyone's blogging about how you can do cool functional things with
+C++14 generic lambdas. But of course each generic lambda is just
+syntactic sugar for a class whose operator() is a function template.
+And C++11's decltype is just syntactic sugar for some bookkeeping that
+we could do on our own if we had to.
+
+In this repo, I rewrite the code from
+http://nonchalantlytyped.net/blog/2014/02/03/church-numerals-using-c1y-generic-lambdas/
+https://gist.github.com/keveman/8794820
+iteratively into C++14, C++11, and finally C++03.
